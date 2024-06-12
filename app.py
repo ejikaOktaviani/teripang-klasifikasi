@@ -140,7 +140,7 @@ def predict_teripang(image, model_path='NB.joblib'):
     return prediction
 
 # Streamlit app
-st.set_page_config(page_title="Teripang Classification App", page_icon="sea-cucumber.png", layout="wide")
+st.set_page_config(page_title="Teripang Classification App", page_icon="Icon/sea-cucumber.png", layout="wide")
 
 # Sidebar
 st.sidebar.title("Teripang Classification")
